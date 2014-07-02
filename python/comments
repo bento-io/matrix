@@ -2,3 +2,8 @@
 
 # So multiline comments are really just...
 # multiple single line comments one after the other
+
+""" Multiline strings can be written with three double quotes
+	and be used as a multi-line comment. It's not really
+	all that common though
+"""
