@@ -1,0 +1,11 @@
+// Statements in javascript end with a semicolon
+doSomething();
+
+// But they don't always have to
+doSomething() // This works just fine
+
+/*
+	There are some weird things that can happen when
+	there's no semicolon though. So it's better to use
+	it as a default
+*/

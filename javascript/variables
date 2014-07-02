@@ -1,4 +1,4 @@
-var x; // You delcare new variables with the var statement
+var x; // You declare new variables with the var statement
 x // undefined
 
 x = 5; // x now has the value of 5
