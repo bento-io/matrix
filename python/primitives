@@ -1,0 +1,15 @@
+# numbers in python
+
+99 # int type
+3.1416 # float type
+
+# strings can be enclosed with double or single quotes
+"a string" # double quotes
+'another string' # single quotes
+
+# booleans, note the case sensitivity
+True
+False
+
+// none type representing an empty value
+None

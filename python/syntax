@@ -1,0 +1,10 @@
+# statements in python are terminated with a new line, no semicolons or anything
+stepOne()
+stepTwo()
+
+# instead of braces, scope is determined with nested indents
+# for example look at the following function
+def helloWorld():
+	print "Hello World"
+
+helloWorld() # breaking out of the function scope
