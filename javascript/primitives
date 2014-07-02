@@ -1,1 +1,7 @@
-primitives
+// javascript has numbers like you'd expect
+5;
+99;
+3.1416;
+
+// numbers are all of the same type (64-bit IEEE 754 double)
+// for the most part this should be okay
