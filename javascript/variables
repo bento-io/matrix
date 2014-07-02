@@ -1,0 +1,5 @@
+var x; // You delcare new variables with the var statement
+x // undefined
+
+x = 5; // x now has the value of 5
+var y = "bento" // y is initialized and now has the string "bento" assigned to it
