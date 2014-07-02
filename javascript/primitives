@@ -1,7 +1,26 @@
-// javascript has numbers like you'd expect
+// numbers like you'd expect
 5;
 99;
 3.1416;
-
 // numbers are all of the same type (64-bit IEEE 754 double)
 // for the most part this should be okay
+
+// an explicit type for something that is not a number
+NaN; // occurs when you do something weird like add undefined to a number
+
+// strings can be enclosed with double or single quotes
+"a string"; // double quotes
+'another string'; // single quotes
+
+// booleans
+true;
+false;
+
+// undefined type, means a variable is declared but not assigned
+var x; // = undefined
+
+// null, means no value is present, subtlely different from undefined
+null; // = null
+null === undefined; // = false
+
+// more on false-like, empty-like values later
