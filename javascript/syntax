@@ -4,8 +4,6 @@ doSomething();
 // But they don't always have to
 doSomething() // This works just fine
 
-/*
-	There are some weird things that can happen when
-	there's no semicolon though. So it's better to use
-	it as a default
-*/
+// But be careful. There are some weird things that can happen when there's no semicolon
+// because javascript automatically tries to insert them whenever there's a newline. So
+// it's better to use semicolons in practice and be explicit about it.
