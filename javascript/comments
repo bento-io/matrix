@@ -1,0 +1,6 @@
+// This is a single-line comment
+
+/*
+	This is a multi-line comment.
+	It starts with a slash and star then ends with a star and slash.
+*/
