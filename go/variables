@@ -1,0 +1,11 @@
+var x int // You declare new variables with the var statement, then the type
+x = 3 // Assigning a value to the variable
+
+x := 3 // Short hand: declares and assigns with type inference
+
+y, z int = 5, 6 // Multiple assignment
+
+const c string = "constant" // A constant, value cannot be changed
+const a = 5000 // Constants do not have a type except when explicit
+
+// Variables that are not used will throw an error (more on that later)
