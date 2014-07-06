@@ -1,0 +1,86 @@
+[
+	{
+		"key": "intro",
+		"name": "Introduction",
+		"description": "Basic information about the language",
+		"keywords": []
+	},
+	{
+		"key": "comments",
+		"name": "Comments",
+		"description": "How to insert non-executable comments in your code",
+		"keywords": ["comments", "multiline", "multi-line"]
+	},
+	{
+		"key": "syntax",
+		"name": "Syntax",
+		"description": "Language specific patterns on how to write and organize code",
+		"keywords": ["semicolons", "tabs", "spaces", "brackets", "styles"]
+	},
+	{
+		"key": "primitives",
+		"name": "Primitive Types",
+		"description": "Basic types like numbers, booleans, strings",
+		"keywords": ["numbers", "floats", "integers", "booleans", "strings", "true", "false", "basics"]
+	},
+	{
+		"key": "variables",
+		"name": "Variables",
+		"description": "How to declare variables and use them",
+		"keywords": ["variables", "initialize", "declares", "assignment", "multiple", "types", "inference", "dynamic", "static", "constants"]
+	},
+	{
+		"key": "numbers",
+		"name": "Numbers and Math",
+		"description": "Number types and basic operations",
+		"keywords": ["integers", "floats", "double", "long", "signed", "unsigned", "bytes"]
+	},
+	{
+		"key": "booleans",
+		"name": "Booleans",
+		"description": "True and false types, boolean functions, and comparisons",
+		"keywords": ["true", "false", "less", "equal", "greater", "and", "or", "&&", "||", "=="]
+	},
+	{
+		"key": "strings",
+		"name": "Strings",
+		"description": "Common string operations",
+		"keywords": []
+	},
+	{
+		"key": "conditionals",
+		"name": "Conditionals and Switches",
+		"description": "If/else logic, handling multiple cases",
+		"keywords": []
+	},
+	{
+		"key": "arrays",
+		"name": "Arrays and Lists",
+		"description": "Sequentially ordered data, sets, multidimensional arrays",
+		"keywords": []
+	},
+	{
+		"key": "maps",
+		"name": "Maps, Hashes, and Associative Arrays",
+		"description": "Structured data as key, value pairs",
+		"keywords": []
+	},
+	{
+		"key": "loops",
+		"name": "Loops",
+		"description": "How to repeat instructions, control flow",
+		"keywords": []
+	},
+	{
+		"key": "functions",
+		"name": "Functions",
+		"description": "Defining and reusing code blocks",
+		"keywords": []
+	},
+	{
+		"key": "objects",
+		"name": "Objects",
+		"description": "Basics of object oriented features",
+		"keywords": []
+	}
+]
