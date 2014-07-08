@@ -1,0 +1,8 @@
+#You declare new variables as follows
+x = 5                # x is equal to 5
+y = "Hello"          # y equals string Hello
+
+#You may declare multiple variables on the same line as follows
+x, y, z = 3, 4, 5 
+
+#In the above example x is equivalent to 3, y is equivalent to 4, and z is equivalent to 5
