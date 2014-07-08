@@ -1,0 +1,5 @@
+int x; /* variables are declared on the stack by type */
+x; /* because x is not initialized, it contains garbage data */
+x = 5; /* x is now initialized to 5 */
+
+char *y = "bento"; /* y is a character pointer (string) initialized with "bento" */ 

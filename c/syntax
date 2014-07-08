@@ -1,0 +1,15 @@
+/* statements in C end with a semicolon, and can be chained together */
+step_one();
+step_two(); step_three(); step_four();
+
+/* scope is defined by braces, and braces can be placed arbitrarily */
+void hello_world(void)
+{
+	printf("Hello, World\n");
+}
+
+{
+	hello_world(); /* this function call is within its own scope due to the braces */
+}
+
+hello_world(); /* this function is within the scope of the calling function's braces */
