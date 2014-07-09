@@ -1,0 +1,6 @@
+/* this is an array */
+int numbers[5] = {1, 2, 3, 4, 5};
+
+/* because arrays degrade to pointers, they can be dereferenced */
+*numbers /* 1 */
+*(numbers + 1) /* 2 */

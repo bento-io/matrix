@@ -1,0 +1,9 @@
+// single line comments begin with two forward slashes
+
+// however, single line comments are not present in C89 
+// you can use them in C99/MSVC/GNU89+, though
+
+/*	multiline comments begin with a forward slash asterisk
+	and end with an asterisk and another forward slash
+	unlike single line comments, they can be used with any C standard
+*/

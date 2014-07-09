@@ -1,0 +1,19 @@
+/* numbers in c */
+1700 /* base-10 int or long */
+0170 /* base-8 int or long */
+0x17 /* base-16 int or long */
+17.5 /* IEEE 754 float or double */
+
+/* strings are enclosed by double quotes */
+"this is a string" /* strings have an implicit NULL character at the end */
+
+/* characters are enclosed by single quotes */
+'a' /* there is no NULL character here */
+
+/* C89 does not have booleans, but C99 does with stdbool.h */
+true
+false
+
+/* NULL is used to represent nothing, or 0 */
+NULL
+'\0' /* ASCII equivalent of NULL */
