@@ -1,0 +1,10 @@
+#Comments are ignored by the ruby interpreter
+#In order to write a single-line comment use the number sign
+
+=begin
+This is a multi-line comment.
+Anything between the =begin and the =end
+will be ignored by the ruby interpreter
+=end
+
+
