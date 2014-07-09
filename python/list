@@ -1,0 +1,5 @@
+#This is a list in Python
+
+exampleList = ["Apple", "Orange", "Banana"] 
+
+#Be sure to englulf the indices of the list in square brackets, and separate them with commas.
