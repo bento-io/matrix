@@ -16,6 +16,7 @@ import math         # imports math module, we will use this later
 2 <=2               # prints true since 2 is less than or EQUAL to itself
 2 > 1               # prints true since 2 is greater than 1
 2 >= 2              # prints true since 2 is greater than or EQUAL to itself 
+3 != 8              # prints true since 3 is not equal to 8
 abs(-3)             # prints the absolute value of negative 3, which is 3
 
 #Now time to use the math module, you must import math in order to execute these commands
