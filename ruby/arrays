@@ -1,0 +1,11 @@
+#There are two common ways to create arrays in Ruby
+#The first way to do so is
+
+arr = [1,2,3,4,5]                                      #the arr Array has five elements ranging from 1-5
+
+#the other way to create an array is as follows
+example = Array.new(5)       #this creates an array called example with five EMPTY elements, determined by the integer you enntered as a parameter.
+
+#using the second way, to make an array with numbers 1-5 you would do
+example = Array.new(5) { |element| element += 1 }      #this creates an array called example with elements ranging from 1-5
+
