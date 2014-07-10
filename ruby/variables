@@ -1,0 +1,29 @@
+# To declare new variables in ruby do as follows
+x = true               # x has the boolean value of true
+y = "Ruby String!"      # y equals the string Ruby String!
+
+#You may declare multiple variables on the same line as follows
+x, y, z = 6, 7, 8 
+
+#In the above example x is equivalent to 6, y is equivalent to 7, and z is equivalent to 8
+
+=begin
+Note: if the variable name begins with a capital letter
+Ruby will treat it as a Constant. What this means is, that
+the value of that variable shouldn't change. However, if you do
+reassign that variable with a different value, ruby will allow 
+you to do so, but will give you a warning. Do not be alarmed by it.
+So for example as follows.
+=end
+
+ExConstant = 9         # ExConstant is equal to 9
+ExConstant = 11        # ExConstant is equal to 11 now
+
+=begin
+The ruby interpreter will give you this message:
+warning: already initialized constant ExConstant
+warning: previous definition of ExConstant was here
+=> 11
+
+You may ignore this message, since ExConstant's value was infact changed to 11
+=end
