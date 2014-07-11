@@ -1,0 +1,13 @@
+//To declare variables in Java you need to declare the variable type, followed by the variable name.
+//Declare variables as follows
+
+int number;                 //Declares int type variable called number
+boolean g;                  //Declares boolean type variable called g
+
+//on a different line you would then assign the declared variable a value as such
+number = 78;
+g = true;
+
+//you can however declare a variable and assign it on the same line as follows
+int number = 78;            //declares int type variable number and assigns the value 78 to it
+boolean g = true;           //declares boolean type variable g and assigns the value true to it
