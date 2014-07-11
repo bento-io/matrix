@@ -1,0 +1,25 @@
+/* C has plenty of number primitives, which are all either floating-point or integral */
+/* Their size depends on the architecture of your machine expect for char, which is always one byte. */
+3; /* this can be a char, short, int, long, or long long all signed or unsigned */
+1.5; /* this can be a float, double, or long double */
+
+/* basic arithmetic uses the standard symbols: */
+1 + 1; /* == 2 */
+8 - 1; /* == 7 */
+10 * 2; /* == 20 */
+35 / 5; /* == 7 */
+
+/* unless explictly cast, uneven division trims according to the data type */
+5 / 2; /* == 2 if stored in an integral type */
+5 / 2; /* == 2.5 if cast into a floating point type */
+
+/* parentheses can be used to delimit order of operation */
+(1 + 3) * 2; /* == 8  */
+
+/* <math.h> provides special values and functions for mathematics */
+HUGE_VAL /* represents a double too large to represent */
+-HUGE_VAL
+NAN /* used by some implementations to denote an impossible result */
+
+M_PI /* contains a close representation of PI (POSIX) */
+floor(1.999) /* == 1.0 */
