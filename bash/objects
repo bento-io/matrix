@@ -1,0 +1,3 @@
+# because bash is a procedural shell language, it isn't object oriented
+# there are no objects in the OO sense in bash.
+# however, there are some shells (like Microsoft's PowerShell) that are OO.

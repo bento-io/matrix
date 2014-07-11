@@ -1,0 +1,23 @@
+# functions in bash are relatively primitive
+function my_function() # the 'function' is optional
+{
+	echo "1..." ; sleep 1 ; echo "2..." ; sleep 2 ; echo "3..." ; sleep 3
+}
+
+my_function # no parentheses on call
+
+# you can also pass arguments to functions
+function yell()
+{
+	echo "$1"'!' # arguments are passed in $1, $2, etc
+}
+
+yell "cow" # outputs "cow!"
+
+# finally, you can return abnormally from functions
+function bad_cd()
+{
+	cd || return 1337
+}
+
+bad_cd # returns 1337 if cd fails
