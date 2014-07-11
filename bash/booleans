@@ -1,0 +1,7 @@
+# true and false are built-in commands that evaluate to their boolean values
+# however, in bash, true is 0 and false is 1 (due to exit codes)
+true
+false
+
+# the exit code of the last command to execute is stored in the special variable $?
+echo $? # echo the exit code of the last command, which is usually 0 (true) on success

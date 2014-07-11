@@ -1,0 +1,16 @@
+# statements in bash end with a newline and are made up of utility calls
+cd /a/directory/on/your/computer # change directory
+ls # list files
+
+# statements can, however, be chained together:
+cd ; ls # change directory, then list files
+cd && ls # attempt to list files only if change directory succeeds ('and' operation)
+cd || ls # attempt to list files regardless of cd's success ('or' operation)
+
+# you can also create and call functions in bash:
+function my_func()
+{
+	echo "Hello World"
+}
+
+my_func
