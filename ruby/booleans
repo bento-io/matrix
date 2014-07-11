@@ -1,0 +1,24 @@
+#Booleans in ruby can be assigned to variables as follows
+truth = true
+lies = false
+
+#Boolean operators are as follows
+2 == 2                         #This is true because 2 equals itself
+2 != 2                         #This is false because 2 does equal itself
+2 > 1                          #true because 2 is greater than 1
+2 < 1                          #false because 2 isn't less than 1
+2 >= 2                         #true because 2 is greater than or EQUAL to itself
+2 <= 2                         #true becuase 2 is less than or EQUAL to itself
+
+#Also if you add an exclamation point infront of a statement it negates it so
+!(2 == 2)                      #false because 2 equals 2 is true and negate that making false
+!(2 > 3)                       #true because 2 is greater than 3 is false and negate that making it true
+
+#There are also AND and OR conditons. 2 ampersands represnt "and", 2 vertical bars represent "or"
+(2 == 2 && 2 < 4)              #2 true statements evaluate to true
+(2 != 3 && 2 < 1)              #One true AND one false statement evaluate to false when using double ampersand
+(5 > 7  && 4 < 3)              #2 false statements evaluate to false
+
+(6 == 6 || 6 < 8)              #2 true statements evaluate to true
+(8 < 10 || 2 < 1)              #1 true OR one false statement evaluate to true when using two vertical bars
+(1 > 7  || 5 < 4)              #2 false statements evaluate to false
