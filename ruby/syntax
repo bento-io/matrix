@@ -1,0 +1,30 @@
+#Ruby's syntax is somewhat different from other languages.
+
+#In terms of control flow, ruby utilize whitespace nor curly braces
+#However, ruby requires you to type the keyword end at the end of some blocks.
+
+a = true
+if a == true
+	puts "a is true!"
+else									#end is not necessary with else and elsif.
+	puts "a is false"
+end										#however end is necessary for each if statement.
+
+b = false
+if b == true
+	puts "b is true!"
+end
+
+#Loops are somewhat different in ruby as well.
+
+array = [1,2,3,4,5]
+array.each do |x|			#looping through an array
+	puts x							#prints out each number on a seperate line.
+end
+
+(1..5).each do |x|		#replacement for for loop
+	puts x							#does same thing as above example
+end
+
+(1..5).each { |x| puts x }		#does the same thing as above examples
+															#but only on one line :)
