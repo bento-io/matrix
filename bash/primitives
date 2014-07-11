@@ -1,0 +1,5 @@
+# in bash, all data is untyped and treated as strings
+# however, depending on context, you can perform non-string operations
+
+1700
+"1700" 

@@ -1,0 +1,14 @@
+# single line comments begin with a single hash (#)
+
+# there are no real multi-line comments in bash,
+# but there are a few workarounds:
+
+<<COMMENT
+	This is a here-doc. 
+	It can be used as a comment when not used with other commands.
+COMMENT
+
+: '
+	This has no side effects, as the : command does nothing
+	besides expanding its arguments.
+'

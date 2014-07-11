@@ -1,0 +1,7 @@
+# by convention, bash variables are normally in all caps
+X= # the variable 'X' is declared
+$X # variables are accessed by the $ sigil and contain an empty string until initialized
+
+X=5 # X is assigned the string 5
+
+Y='bento' # Y is assigned the string 'bento'
