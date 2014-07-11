@@ -1,0 +1,6 @@
+//Two slashes indicate a single line comment
+
+/* a slash
+followed by an asterisk
+represents a multi-line comment.
+It ends with an asterisk followed by a slash */
