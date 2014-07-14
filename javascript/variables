@@ -3,3 +3,7 @@ x // undefined
 
 x = 5; // x now has the value of 5
 var y = "bento" // y is initialized and now has the string "bento" assigned to it
+
+var log = console.log; //you can assign shorter var to strings that already exist like console.log() which basically logs info to the console for debugging.
+//an example of using log would be
+  log("This is now console.log!");
