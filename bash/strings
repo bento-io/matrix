@@ -1,0 +1,18 @@
+# because (just about) everything is a string in bash,
+# there are large number of tools for manipulating strings
+
+STR="this is a string"
+
+# there are a few different ways to get the length of a string:
+echo ${#STR} # 16
+echo `expr length $STR` # 16, GNU utils only
+expr "$STR" : '.*' # 16
+
+# you can also outsource to utilities with a pipe:
+echo $STR | awk '{print length}' # 16
+
+# you can also get indices and substrings:
+echo `expr index "$STR" hi` # prints 2, GNU utils only
+echo ${STR:8} # "a string"
+echo ${STR:0:4} # "this"
+
