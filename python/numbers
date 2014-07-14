@@ -7,7 +7,7 @@ import math         # imports math module, we will use this later
 5 - 1               # subtracts 1 from 5 to get 4 
 6 * 7               # multiplies 6 and 7 to get 42
 9 / 3               # divides 9 by 3 to get 3
-9 / 2               # divides 9 by 2 to get 4. You don't get 4.5 because dividing 2 int types can translate in a float therefore do
+9 / 2               # divides 9 by 2 to get 4. You don't get 4.5 because dividing 2 int types can't translate into a float therefore do
 9.0 / 2.0           # TA-DA! now you should get 4.5 as your answer
 2**5                # 2 to the power of 5 to get 32
 11 % 2              # finds the remainder of 11 divided by 2 which is 1
