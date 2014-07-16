@@ -1,0 +1,24 @@
+/* there are three major loops in C: for, while, and do-while */
+
+/* a for loop iterates n times until its condition fails: */
+for (int i = 0; i < 10; i++) /* C99 style. In C89, 'i' must be declared before */
+{
+	printf("%d\n", i); /* i is printed 10 times (0, 1, 2, ..., 9)
+}
+
+/* a while loop repeats until its condition fails */
+while (i >= 0)
+{
+	printf("%d\n", i);
+}
+
+/* a do-while loop repeats at least once, until its condition fails */
+do
+{
+	int c = getchar(); /* int is used to accomodate the EOF character */
+	putchar(c);
+} while (c != '\n')
+
+/* you can also have infinite loops: */
+for (;;) { } /* blank statements, making the loop evaluate infinitely */
+while (1) { } /* true can also be used in C99 */

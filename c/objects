@@ -1,0 +1,24 @@
+/* C is a procedural language, and does not have objects */
+/* However, it does have data structures that represent data one-to-one in memory */
+
+/* FILE pointers can be used to access files: */
+FILE *my_file = fopen("/the/file", "r"); /* open a file for reading */
+
+/* you can also define structures */
+struct apple
+{
+	int x, y, z;	
+};
+
+typedef struct
+{
+	int w, x, y, z;
+} banana;
+
+/* declaring structures: */
+struct apple foo; /* declares an apple structure*/
+banana bar; /* typedef'd structures do not require a 'struct' during declaration */
+
+/* struct elements can then be accessed with the dot operator: */
+foo.x = 5;
+bar.w = 100;
