@@ -14,10 +14,10 @@ NaN; // occurs when you do something weird like add undefined to a number
 
 // booleans
   //booleans can be either number based like 1 = 1 or finding the length of something and comparing.
-1 = 1;
+1 == 1;
 //result returns true
 true;
-100 = 1200;
+100 == 1200;
 //the result returns false
 false;
 //comaping lengths boolean
