@@ -1,0 +1,14 @@
+#Dictionaries are a type of data structure in python which have key-value pairs,
+#and are essentially the same as associative arrays in other programming languages.
+
+#To create a dictionary, assign a variable a value with curly-braces
+dict = {'key1': 100, 'key2': 125, 'key3': 415}
+
+#to add a key-value pair to an existing dictionary do
+dict['key4'] = 509         #key4 is the Key and 509 is the value
+
+#to remove a Key-value pair do
+del dict['key1']
+
+#to see just the keys without their paired value use the method
+dict.keys()                # note than in the above example key1 wouldn't be printed since it was deleted.
