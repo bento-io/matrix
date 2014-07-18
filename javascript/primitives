@@ -13,8 +13,16 @@ NaN; // occurs when you do something weird like add undefined to a number
 'another string'; // single quotes
 
 // booleans
+  //booleans can be either number based like 1 = 1 or finding the length of something and comparing.
+1 == 1;
+//result returns true
 true;
+100 == 1200;
+//the result returns false
 false;
+//comaping lengths boolean
+"HS Hackers".length == "Are awesome!!!!".length
+//this would return false, since "HS Hackers" w/ the space is (10), while "Are awesome!!!!" returns (15).
 
 // undefined type, means a variable is declared but not assigned
 var x; // = undefined
