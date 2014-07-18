@@ -1,0 +1,17 @@
+# perl is loosely typed, and only has three primitives
+# those three primitives are scalars, arrays, and hashes
+
+# all of the following are valid scalars
+15
+"this is a scalar"
+'x'
+0x999
+0.12
+
+# arrays can contain multiple types and ranges
+(800, 5, 8, 8, 2300);
+(1..5, a..z);
+("Cat", "Dog", "Pineapple", 10);
+
+# hashes are key-value pairs
+('Cat' => 1, 'Dog' => 2, 'Winnebago' => 3);

@@ -1,0 +1,14 @@
+# single-line comments in Perl begin with a hash
+
+# there are a number of ways to write multi-line comments:
+
+=for comment
+This is a multiline comment using POD.
+=cut
+
+# Acme::Comment can also be used to import other languages comment styles:
+
+use Acme::Comment type=>'C++';
+/*
+	This is now a valid multiline comment in Perl.
+*/

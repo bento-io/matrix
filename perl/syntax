@@ -1,0 +1,9 @@
+# statements in perl end in a semicolon
+print "Hello!\n";
+
+# scope is defined by braces that can be placed arbitrarily
+{
+	my $x = 5; # x declared and initialized in a local scope
+}
+# x does not exist here
+
