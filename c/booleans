@@ -6,15 +6,15 @@
 bool facts = true;
 bool opinions = false;
 
-/*Logical operators in C are as follows. double ampersand (&&) represants 'and', and double vertical bar(||) represents 'or' */
+/* C uses && for logical AND and || for logical OR */
 
-if (2 == 2 && 2 <= 3) { }         /*Code will run since 2 equals itself AND is less than or equal to 3*/
-if (5 != 4 && 5 >= 7) { }         /*Code won't run since only one of the conditions is true, which is 5 isn't equal to 4
-if (!(9 > 5 && 6 < 10)) { }         /*Code won't run since exclamation point negates both true conditions making both false
+if (2 == 2 && 2 <= 3) { }         /* will run since 2 equals itself AND is less than or equal to 3 */
+if (5 != 4 && 5 >= 7) { }         /* won't run since only one of the conditions is true, which is 5 isn't equal to 4 */
+if (!(9 > 5 && 6 < 10)) { }         /* won't run since exclamation point negates both true conditions making both false */
 
-if (1 == 1 || 3 != 7) { }         /*Code will run since both conditions are true, and you only need one
-if (2 <= 3 || 6 >= 9) { }         /*Code will still run since you only need one condition to be met
-if (9 > 10 || 4 >= 8) { }         /*Code won't execute since both conditions are false
+if (1 == 1 || 3 != 7) { }         /* will run since both conditions are true, and you only need one */
+if (2 <= 3 || 6 >= 9) { }         /* will still run since you only need one condition to be met */
+if (9 > 10 || 4 >= 8) { }         /* won't execute since both conditions are false */
 
 
 

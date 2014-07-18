@@ -1,0 +1,23 @@
+/* functions in C must either be declared or prototyped above main */
+int func(void); /* function prototypes */
+void another_func(int num);
+void third_func(int *num);
+
+/* main function here */
+
+int func(void) /* 'func' takes no arguments (void) and returns an int */
+{
+	printf("Inside a function.\n");
+	return 0;
+}
+
+void another_func(int num) /* 'another_func' takes one int and returns nothing */
+{
+	printf("%s%d\n", "Inside a function with int: ", num); 
+}
+
+/* C is pass-by-value, but it is possible to pass-by-reference with pointers: */
+void third_func(int *num) /* 'third_func' takes one int pointer and returns nothing */
+{
+	*num += 10; /* 'num' is dereferenced and incremented by 10
+}
