@@ -1,0 +1,10 @@
+#In order to create a hash in Ruby do as follows
+
+exHash = {
+  :first => 1,             #in older ruby versions the norm was to use an equals sign followed by a greater than sign. BE SURE TO ADD COMMAS between Key-value pairs
+  second: 3                #the current norm is separate the key from the value using a colon similar to a dictionary in Python
+}
+
+#Additionally you can create a hash by doing
+sampleHash = Hash.new
+sampleHash["one"] = 1      #Adds Key one paired with value 1 to the hash sampleHash
