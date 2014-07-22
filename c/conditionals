@@ -1,0 +1,30 @@
+/* C has both if-else and switch-style conditionals */
+
+/* Because any non-zero value evaluates to true, C's conditionals can be very succinct: */
+if (!strcmp(str1, str2)) /* strcmp returns 0 on equality, like many other library functions */
+{
+	printf("The strings are equal!\n");
+}
+else if (strcmp(str1, str2) > 0)
+{
+	printf("str1 is greater than str2!\n");
+}
+else /* logical conclusion, the only state remaining is less-than */
+{
+	printf("str2 is greater than str1!\n");
+}
+
+
+/* switch statements take a numeric or character value */
+/* cases are kept from overflowing with break statements */
+switch(c)
+{
+	case 'a':
+		printf("The letter \'a\'.\n");
+		break;
+	case 'b':
+		printf("The letter \'b\'.\n");
+		break;
+	default:
+		printf("Any other letter.\n");
+}
