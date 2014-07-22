@@ -1,0 +1,12 @@
+//	Like many other languages, all statements in Java end with a semicolon.
+String str = "this is a string"; 
+int x = str.length();
+
+//	All methods have their own (local) scope, and classes can be scoped variably.
+public void myMethod() // the method itself has a public scope within the class
+{
+	String str = "Hello, world!"; // 'str' only exists within this method
+	System.out.println(str);
+}
+
+// The variable 'str' does not exist here
