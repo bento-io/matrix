@@ -1,0 +1,45 @@
+// This is a Javascript if, else if, and else statement
+
+if (conditionOne) {
+	// if condition evaluates to true, do the stuff here
+	console.log('conditionOne all the way');
+} else if (conditionTwo) {
+	// if conditionOne is false, but conditionTwo is true, do the stuff here
+	console.log('conditionTwo all the way');
+} else {
+	// if neither all of the conditions above are false, do the stuff here	
+	console.log('I support no one');
+}
+
+// You can also use a switch statements, which compares an expression's value
+// to the values of different cases.
+
+day = "Thursday"
+
+// After the following code block, there will have been a console.log(":)");
+switch (day) {
+	case "Monday":
+		console.log(":'(");
+		break;
+	case "Tuesday":
+		console.log(":(");
+		break;
+	case "Wednesday":
+		console.log(":/");
+		break;
+	case "Thursday":
+		console.log(":)");
+		break;
+	case "Friday":
+		console.log(":D");
+}
+
+// Switch statements can also contain defaults, like so:
+
+switch (day) {
+	case "Monday":
+		console.log(":'(");
+		break;
+	default:
+		console.log(":/");
+}
