@@ -20,8 +20,8 @@ true;
 100 == 1200;
 //the result returns false
 false;
-//comaping lengths boolean
-"HS Hackers".length == "Are awesome!!!!".length
+//comparing lengths boolean
+"HS Hackers".length == "Are awesome!!!!".length;
 //this would return false, since "HS Hackers" w/ the space is (10), while "Are awesome!!!!" returns (15).
 
 // undefined type, means a variable is declared but not assigned
