@@ -1,2 +1,14 @@
 // This is an array
 var array = ["High", "school", "hackers", "are", "awesome"];
+
+// You can access an array like this
+array[2]; // "hackers"
+
+// Arrays have a length property
+array.length; // 5
+
+// Arrays have built-in functions too
+array.push('!'); // the value of array is now ["High", "school", "hackers", "are", "awesome", "!"]
+array.pop(); // the value of the array is back to ["High", "school", "hackers", "are", "awesome"]
+array.indexOf("hackers"); // returns 2
+array.join(' ') // returns "High school hackers are awesome"

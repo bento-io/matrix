@@ -1,5 +1,7 @@
 // This is a single-line comment
 
+console.log('boop'); // This is a single line comment after a statement
+
 /*
 	This is a multi-line comment.
 	It starts with a slash and star then ends with a star and slash.
