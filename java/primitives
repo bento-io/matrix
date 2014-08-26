@@ -1,0 +1,21 @@
+//	Java has lots of types of varying size for primitives
+//	However, unsigned integers were unsupported until Java 8.
+1700 // short, int, or long, base-10
+0170 // short, int, or long, base-8
+0x17 // short, int, or long, base-16
+0b11 // short, int, or long, base-2
+
+//	Strings are enclosed with double-quotes
+"this is a string literal"
+
+//	Characters in Java are UTF-16 and enclosed with single-quotes
+'a'
+
+
+//	Java has boolean barewords due to its strict typing
+true
+false
+
+
+//	null is used to represent uninstantiated objects
+null
