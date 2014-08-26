@@ -1,0 +1,4 @@
+/* Unfortunately, as an older language with a (relatively) small standard library, 
+   C does not have complex integral data structures like maps, hashes, and linked lists.
+   However, many of those structures can be found in third-party, open-source libraries.
+*/
