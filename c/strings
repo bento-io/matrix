@@ -1,0 +1,29 @@
+/*	in C, character strings are just pointers to the first character in a sequence,
+	terminated by a null character ('\0'). Because of that, they are both simple and 
+	dangerous to use (at times).
+*/
+
+/* my_string is declared on the stack */
+char *my_string = "This is my string!"; /* initialization adds a null character implicitly */
+
+int my_len = strlen(my_string); /* returns the length of the string (17), not including the null character */
+
+/*	because my_string was declared with pointer notation, it is located in rodata, 
+	or the read-only data section. Because of that, attempting to modify it will result in a 
+	segmentation fault.
+*/
+strncpy(my_string, "This is my string.", my_len); /* segfaults */
+
+/*	my_other_string is declared with array notation (because arrays degrade to pointers),
+	and length is determined at compile time. The primary difference is that my_other_string
+	is located in rwdata, unlike my_string. Therefore, it will not segfault whenever a function 
+	attempts to write to it.
+*/
+char my_other_string[] = "This is my other string!";
+strncpy(my_other_string, "This is my other string.", strlen(my_other_string)); /* works as intended */
+
+/*	Of course, there are many other pitfalls to C-strings. It's very easy to accidentally overwrite
+	the null character, making your string unterminated and therefore run until the next null byte is 
+	encountered in memory. It's also easy to abuse unsafe functions like strcpy and sprintf, which
+	don't check the size of the buffer they write to and create overflow bugs.
+*/
