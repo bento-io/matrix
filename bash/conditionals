@@ -1,0 +1,20 @@
+# bash uses a combination of the 'if' builtin and the 'test' utility for conditionals
+# the '[' symbol is used as a synonym for 'test' on most systems
+
+# the '[' utility has various operators for comparing its arguments
+[ -x /bin/foo ] && foo # if /bin/foo exists and is executable, run it
+[ ! -z $STR ] || echo '$STR is zero (undefined)!'
+
+# full conditionals take the form if ; the of n ; elif then ; fi
+MYVAR="My variable"
+if [ "$MYVAR" = "My variable" ]; then
+	# do something
+elif [ "$MYVAR" = "Something else" ]; then
+	# do something else
+else
+	# do something otherwise
+fi
+
+# bash conditionals have lots of nuances, including the non-POSIX '[['
+# keyword, which behaves slightly differently from POSIX 'test' or '['.
+# it's a good idea to read the manpages to get a better grasp of their interactions.
