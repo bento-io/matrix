@@ -1,6 +1,14 @@
 /* this is an array */
 int numbers[5] = {1, 2, 3, 4, 5};
 
+/* arrays are 0-based */
+numbers[0] /* 1 */
+numbers[1] /* 2 */
+
 /* because arrays degrade to pointers, they can be dereferenced */
 *numbers /* 1 */
 *(numbers + 1) /* 2 */
+
+/* because of this property, you can do this too: */
+1[numbers] /* 2 */
+2[numbers] /* 3 */
