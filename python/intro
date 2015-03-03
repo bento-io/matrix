@@ -1,7 +1,7 @@
 #Python is an object-oriented and high-level programming language.
-#Currently there are two prominent Python versions, Python 2.7 and Python 3.
+#Currently there are two prominent Python versions: Python 2.7 and Python 3.
 #Although some differences do exist between the two, there is still a strong resemblance.
 #Python was made for simplicity and clarity, yet is still capable of creating powerful applications.
 #Some major uses for Python among others, would be web applications through the Django framework,
-#and for microcomputers such as RaspberryPi.
+#and for microcomputers such as Raspberry Pi.
 
